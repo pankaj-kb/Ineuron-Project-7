@@ -10,20 +10,30 @@
 nav {
     background-color: #151515;
     display: flex;
-    color: #ffffff;
+    color: #CCCCCC;
     height: 100px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 #navLogo {
     height: 50px;
+    margin-left: 100px;
 }
 
 .mainNav {
     display: flex;
+    width: 400px;
+    justify-content: space-between;
+    
 }
 
 .rightNav {
     display: flex;
+    margin-right: 100px;
+}
+
+.downCarrot {
+    margin-left: 10px;
+    font-size: 12px;
 }
