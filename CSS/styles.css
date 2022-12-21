@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* @import url('/Assets/Icons/btn-pink-bg.svg'); */
 
 :root {
@@ -9,7 +10,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Rubik', sans-serif;
 }
 
 nav {
@@ -30,7 +32,7 @@ nav {
 .mainNav {
     display: flex;
     width: 400px;
-    justify-content: space-between;   
+    justify-content: space-between;
 }
 
 #mainNavEl:hover {
@@ -68,15 +70,93 @@ nav {
     color: #F637EC;
     cursor: pointer;
 }
+
 .heroSection {
     background-color: #151515;
     display: flex;
     /* padding-right: 100px; */
     padding-left: 100px;
     color: #ffffff;
-    height: 800px;
+    height: 1000px;
 }
 
-.makePink {
+.headingSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.headingSection .moto .mainHeading {
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.headingSection .moto .mainHeading .makePink {
     color: #F637EC;
+    font-weight: 600;
+}
+
+.headingSection .moto .subHeading {
+    color: #CCCCCC;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.getStarted {
+    /* background-color: transparent; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: var(--btn-pink-bg) no-repeat;
+    background-size: 100px;
+    background-position: 1px;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.getStarted:hover {
+    background: var(--btn-pink-bg) no-repeat;
+    background-size: 210px;
+    background-position: 1px;
+}
+
+.rightArrow {
+    margin-left: 10px;
+}
+
+.heroSection .mainExp {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.heroSection .mainExp .userExp {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.heroSection .mainExp .exp {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.heroSection .mainExp #numberLine {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.heroSection .mainExp .pinkPlus {
+    font-size: 30px;
+    color: #F637EC;
+}
+
+.heroSection .mainExp #segmentLine {
+    font-weight: 200;
+    font-size: 22px;
+    width: 150px;
+    padding-left: 30px;
 }
