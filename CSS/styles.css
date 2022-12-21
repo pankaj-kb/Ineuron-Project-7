@@ -48,6 +48,14 @@ nav {
     /* margin-left: 15px; */
 }
 
+.homeButton {
+    border: 3px solid #F637EC;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
 #mainNavEl:hover {
     /* background: var(--btn-pink-bg) no-repeat;
     background-size: 30px;
