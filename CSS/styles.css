@@ -30,7 +30,12 @@ nav {
 
 .rightNav {
     display: flex;
-    margin-right: 100px;
+    /* justify-content: space-; */
+    margin-right: 120px;
+}
+
+#contact-us {
+    margin-left: 30px;
 }
 
 .downCarrot {
