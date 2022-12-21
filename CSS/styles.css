@@ -42,3 +42,10 @@ nav {
     margin-left: 10px;
     font-size: 12px;
 }
+
+.heroSection {
+    background-color: #151515;
+    display: flex;
+    color: #ffffff;
+    height: 800px;
+}
