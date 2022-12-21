@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* @import url('/Assets/Icons/btn-pink-bg.svg'); */
+
+:root {
+    --btn-pink-bg: url('/Assets/Icons/btn-pink-bg.svg');
+}
 
 * {
     margin: 0;
@@ -19,13 +24,20 @@ nav {
 #navLogo {
     height: 50px;
     margin-left: 100px;
+    cursor: pointer;
 }
 
 .mainNav {
     display: flex;
     width: 400px;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
+}
+
+#mainNavEl:hover {
+    background: var(--btn-pink-bg) no-repeat;
+    background-size: 30px;
+    background-position: 1px;
+    cursor: pointer;
 }
 
 .rightNav {
@@ -35,7 +47,16 @@ nav {
 }
 
 #contact-us {
-    margin-left: 30px;
+    padding-left: 30px;
+    background: var(--btn-pink-bg) no-repeat;
+    background-size: 50px;
+    background-position: 20px;
+}
+
+#contact-us:hover {
+    background: var(--btn-pink-bg) no-repeat;
+    background-size: 100px;
+    background-position: 20px;
 }
 
 .downCarrot {
@@ -43,9 +64,19 @@ nav {
     font-size: 12px;
 }
 
+.downCarrot:hover {
+    color: #F637EC;
+    cursor: pointer;
+}
 .heroSection {
     background-color: #151515;
     display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
     color: #ffffff;
     height: 800px;
+}
+
+.makePink {
+    color: #F637EC;
 }
