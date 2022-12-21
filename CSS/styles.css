@@ -3,7 +3,7 @@
 /* @import url('/Assets/Icons/btn-pink-bg.svg'); */
 
 :root {
-    --btn-pink-bg: url('/Assets/Icons/btn-pink-bg.svg');
+    --btn-pink-bg: url('../Assets/Icons/btn-pink-bg.svg');
 }
 
 * {
