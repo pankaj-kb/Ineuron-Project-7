@@ -14,6 +14,12 @@
     font-family: 'Rubik', sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
 nav {
     background-color: #151515;
     display: flex;
@@ -31,15 +37,24 @@ nav {
 
 .mainNav {
     display: flex;
-    width: 400px;
+    /* position: relative; */
+    width: 500px;
     justify-content: space-between;
 }
 
-.mainNav #mainNavEl:hover {
-    background: var(--btn-pink-bg) no-repeat;
+#mainNavEl {
+    padding: 8px;
+    z-index: 1;
+    /* margin-left: 15px; */
+}
+
+#mainNavEl:hover {
+    /* background: var(--btn-pink-bg) no-repeat;
     background-size: 30px;
-    background-position: 1px;
-    /* background-color: #F637EC; */
+    background-position: 10px; */
+    border: 3px solid#F637EC;
+    border-radius: 10px;
+    /* color: #F637EC; */
     cursor: pointer;
 }
 
@@ -79,6 +94,9 @@ nav {
     padding-left: 100px;
     color: #ffffff;
     height: 900px;
+    /* margin: 0 auto; */
+    justify-content:baseline;
+    /* align-items:center; */
 }
 
 .headingSection {
@@ -98,6 +116,14 @@ nav {
 .headingSection .moto .mainHeading .makePink {
     color: #F637EC;
     font-weight: 600;
+}
+
+.headingSection .moto .mainHeading .makePink:hover {
+    /* text-decoration: underline;
+    text-decoration-style:solid; */
+    border-bottom: 8px solid #F637EC;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .headingSection .moto .subHeading {
@@ -171,14 +197,35 @@ nav {
     padding-left: 30px;
 }
 
-.heroSection .imageSection .backCards{
-    /* position: relative;
-    right: 600px;
-    top: -80px; */
+.heroSection .imageSection .backCards {
+    position: relative;
+    right: 200px;
+    bottom: -100px;
+    padding: 0;
+    margin: 0 auto;
+    width: 700px;
+}
+
+/* .heroSection .imageSection {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 670px;
+} */
+
+.heroSection .imageSection .frontCards {
+    position: relative;
+    right: 150px;
+    bottom: 400px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    width: 700px;
 }
 
 .heroSection .imageSection .frontCards {
-    /* position: relative;
-    top: -750px;
-    left: -450px; */
+    border-right: 2px solid#F637EC;
+    border-radius: 15px;
+    border-right-width: 3px;
+    border-bottom: 2px solid #F637EC;
+    border-bottom-width: 8px;
 }
