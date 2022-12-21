@@ -71,7 +71,7 @@ nav {
 .heroSection {
     background-color: #151515;
     display: flex;
-    padding-right: 100px;
+    /* padding-right: 100px; */
     padding-left: 100px;
     color: #ffffff;
     height: 800px;
