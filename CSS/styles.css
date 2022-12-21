@@ -35,10 +35,11 @@ nav {
     justify-content: space-between;
 }
 
-#mainNavEl:hover {
+.mainNav #mainNavEl:hover {
     background: var(--btn-pink-bg) no-repeat;
     background-size: 30px;
     background-position: 1px;
+    /* background-color: #F637EC; */
     cursor: pointer;
 }
 
@@ -77,19 +78,21 @@ nav {
     /* padding-right: 100px; */
     padding-left: 100px;
     color: #ffffff;
-    height: 1000px;
+    height: 900px;
 }
 
 .headingSection {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: baseline;
 }
 
 .headingSection .moto .mainHeading {
     font-size: 90px;
     font-weight: 400;
+    width: 1100px;
+    z-index: 2;
 }
 
 .headingSection .moto .mainHeading .makePink {
@@ -101,6 +104,9 @@ nav {
     color: #CCCCCC;
     font-weight: 100;
     font-size: 22px;
+    margin-top: 50px;
+    width: 600px;
+    line-height: 40px;
 }
 
 .getStarted {
@@ -108,17 +114,19 @@ nav {
     padding-top: 5px;
     padding-bottom: 5px;
     background: var(--btn-pink-bg) no-repeat;
-    background-size: 100px;
-    background-position: 1px;
+    background-size: 60px;
+    background-position: -2px;
     color: #ffffff;
     border: none;
     display: flex;
     align-items: center;
+    margin-top: -90px;
+    padding-left: 20px;
 }
 
 .getStarted:hover {
     background: var(--btn-pink-bg) no-repeat;
-    background-size: 210px;
+    background-size: 225px;
     background-position: 1px;
 }
 
@@ -128,8 +136,10 @@ nav {
 
 .heroSection .mainExp {
     display: flex;
+    position: relative;
     /* justify-content: space-between; */
     align-items: center;
+    top: -130px;
 }
 
 .heroSection .mainExp .userExp {
@@ -159,4 +169,16 @@ nav {
     font-size: 22px;
     width: 150px;
     padding-left: 30px;
+}
+
+.heroSection .imageSection .backCards{
+    /* position: relative;
+    right: 600px;
+    top: -80px; */
+}
+
+.heroSection .imageSection .frontCards {
+    /* position: relative;
+    top: -750px;
+    left: -450px; */
 }
