@@ -272,7 +272,7 @@ nav {
     flex-direction: column;
     /* align-content: baseline; */
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .feature-Desc-Section {
@@ -389,8 +389,8 @@ nav {
     width: 800px;
     line-height: 40px;
     text-align: center;
-    position:relative;
-    top: 150px;   
+    position: relative;
+    top: 150px;
 }
 
 .vCards {
@@ -401,7 +401,7 @@ nav {
 .reviewSection {
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #151515;
     color: #CCCCCC;
@@ -434,9 +434,10 @@ nav {
     width: 700px;
     line-height: 40px;
     text-align: center;
-    position:relative;
-    top: -100px;  
+    position: relative;
+    top: -100px;
 }
+
 .reviewSection .reviewGrid {
     display: grid;
     /* grid-template-rows: 2; */
@@ -526,6 +527,7 @@ nav {
     margin-left: 20px;
     transition: transform 0.2s ease-in-out;
 }
+
 /* .greyedButton:hover {
     background-color: #F637EC;
     padding: 10px 50px;
@@ -537,28 +539,82 @@ nav {
 .customizeSection {
     background-color: #151515;
     height: 800px;
+    margin: 0;
+    padding: 0;
 }
 
 .pinkRect {
-
+    position: relative;
+    height: 727px;
+    top: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 .darkPinkRect {
-
+    height: 725px;
+    position: relative;
+    /* z-index: 1; */
+    top: -700px;
+    margin: 0;
+    padding: 0;
+    /* width: auto; */
 }
 
 .diaLeft {
-
+    height: 600px;
+    position: relative;
+    bottom: 1400px;
+    transform: scaleX(-1);
+    margin: 0;
+    padding: 0;
+    /* width: auto; */
 }
 
 .diaRight {
+    height: 600px;
+    position: relative;
+    bottom: 1400px;
+    transform: scaleX(-1);
+    right: -660px;
+    margin: 0;
+    padding: 0;
+}
 
+.customText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -1800px;
+    margin: 0;
+    padding: 0;
 }
 
 .customHeading {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 500;
+    width: 1100px;
+    line-height: 90px;
+}
 
+.customSpan {
+    color: #151515;
 }
 
 .getStarted-custom {
-
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: var(--btn-pink-bg) no-repeat;
+    background-size: 80px;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    font-size: 18px;
+    font-weight: 100;
 }
