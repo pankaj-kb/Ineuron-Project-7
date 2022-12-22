@@ -17,7 +17,8 @@
 body {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    /* overflow: hidden; */
+    /* min-height: 100vh; */
 }
 
 nav {
@@ -536,61 +537,61 @@ nav {
     box-shadow: 0 0 30px rgba(171, 76, 166, 1);   
 } */
 
+
+/* Customize Section */
+
 .customizeSection {
     background-color: #151515;
-    height: 800px;
+    height: 600px;
     margin: 0;
     padding: 0;
-    width: 1903px;
+    z-index: -1;
 }
 
 .pinkRect {
     position: relative;
-    /* height: 727px; */
-    top: 30px;
-    margin: 0;
+    left: 200px;
     padding: 0;
-    width: 1903px;
+    margin: 0;
 }
 
 .darkPinkRect {
-    /* height: 725px; */
-    position: relative;
-    /* z-index: 1; */
-    top: -700px;
-    margin: 0;
+    z-index: 1;
+    position: absolute;
+    /* top: -550px; */
+    left: 200px;
     padding: 0;
-    width: 1903px;
+    margin: 0;
+}
+
+.diaRight  {
+    z-index: 2;
+    position: absolute;
+    /* top: -1100px; */
+    right: 1160px;
+    padding: 0;
+    margin: 0;
 }
 
 .diaLeft {
-    /* height: 600px; */
-    position: relative;
-    bottom: 1400px;
-    transform: scaleX(-1);
-    margin: 0;
+    z-index: 3;
+    position: absolute;
+    /* top: -1100px; */
+    right: 260px;
     padding: 0;
-    /* width: auto; */
+    margin: 0;
 }
 
-.diaRight {
-    /* height: 600px; */
-    position: relative;
-    bottom: 1400px;
-    transform: scaleX(-1);
-    right: -660px;
-    margin: 0;
-    padding: 0;
-}
 
 .customText {
+    z-index: 4;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: -1800px;
-    margin: 0;
-    padding: 0;
+    bottom: 450px;
+    /* margin: 0;
+    padding: 0; */
 }
 
 .customHeading {
@@ -619,7 +620,10 @@ nav {
     top: 50px;
     font-size: 18px;
     font-weight: 100;
+    cursor: pointer;
 }
+
+/* Footer Section */
 
 .footer {
     background-color: #151515;
@@ -632,18 +636,26 @@ nav {
 .footer .logo {
     height: 50px;
     position: relative;
-    left: -500px;
+    left: -440px;
+    cursor: pointer;
+
 }
 
 .footbarNav {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     color: #ffffff;
     font-size: 17px;
     font-weight: 200;
+    position: relative;
 }
 
 #movemeRight {
     margin-left: 50px;
+    cursor: pointer;
+}
+
+.navBranding {
+    cursor: pointer;
 }
