@@ -359,6 +359,41 @@ nav {
     background-color: #FCEFFB;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    /* align-content: space-between; */
     align-items: center;
+    height: 1400px;
+}
+
+.cardChoises .uniqueHeading {
+    font-size: 90px;
+    font-weight: 400;
+    color: #151515;
+    position: relative;
+    top: 130px;
+}
+
+.choisePink {
+    font-size: 90px;
+    font-weight: 500;
+    color: #F637EC;
+    position: relative;
+    top: 130px;
+}
+
+.uniqueSubText {
+    color: #474442;
+    font-weight: 400;
+    font-size: 23px;
+    /* margin-top: 50px; */
+    width: 800px;
+    line-height: 40px;
+    text-align: center;
+    position:relative;
+    top: 150px;   
+}
+
+.vCards {
+    position: relative;
+    bottom: -80px;
 }
