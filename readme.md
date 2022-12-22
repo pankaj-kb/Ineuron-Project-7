@@ -6,4 +6,4 @@
 
 ## Preview
 
-![Project 1](./output.gif)
+![Project 1](./project7-preview.gif)
