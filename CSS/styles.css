@@ -541,28 +541,30 @@ nav {
     height: 800px;
     margin: 0;
     padding: 0;
+    width: 1903px;
 }
 
 .pinkRect {
     position: relative;
-    height: 727px;
+    /* height: 727px; */
     top: 30px;
     margin: 0;
     padding: 0;
+    width: 1903px;
 }
 
 .darkPinkRect {
-    height: 725px;
+    /* height: 725px; */
     position: relative;
     /* z-index: 1; */
     top: -700px;
     margin: 0;
     padding: 0;
-    /* width: auto; */
+    width: 1903px;
 }
 
 .diaLeft {
-    height: 600px;
+    /* height: 600px; */
     position: relative;
     bottom: 1400px;
     transform: scaleX(-1);
@@ -572,7 +574,7 @@ nav {
 }
 
 .diaRight {
-    height: 600px;
+    /* height: 600px; */
     position: relative;
     bottom: 1400px;
     transform: scaleX(-1);
@@ -617,4 +619,31 @@ nav {
     top: 50px;
     font-size: 18px;
     font-weight: 100;
+}
+
+.footer {
+    background-color: #151515;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .logo {
+    height: 50px;
+    position: relative;
+    left: -500px;
+}
+
+.footbarNav {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+#movemeRight {
+    margin-left: 50px;
 }
