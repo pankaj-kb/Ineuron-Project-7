@@ -354,3 +354,11 @@ nav {
     font-weight: 400;
     font-size: 30px;
 }
+
+.cardChoises {
+    background-color: #FCEFFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
