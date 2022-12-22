@@ -267,7 +267,7 @@ nav {
 .featuresSection {
     background-color: #151515;
     color: #ffffff;
-    height: 1100px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     /* align-content: baseline; */
@@ -303,4 +303,54 @@ nav {
 .featuresSection .feature-Desc-Section .mainHeading .makePink {
     color: #F637EC;
     font-weight: 600;
+}
+
+.featuresSection .feature-Image-Section {
+    display: flex;
+    /* justify-content:space-between; */
+    gap: 30px;
+}
+
+.featuresSection .feature-Image-Section .feature-border {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.5px solid transparent;
+    border-left: 0.5px solid transparent;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    gap: 50px;
+    background-color: #272727;
+    padding: 30px;
+    margin: 0;
+    /* box-shadow: 0.5px 0.5px 0 1px rgba(252, 252, 252, 1), 0px 0px 0 0px rgba(0, 0, 0, 0.5); */
+    box-shadow: 0 0 0.5px 0.5px rgba(252, 252, 252, 1);
+    height: 350px;
+    width: 350px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.featuresSection .feature-Image-Section .feature-border:hover {
+    height: 350px;
+    transform: translateY(-50px);
+    background-color: #474442;
+    /* border: 2px solid #F637EC; */
+    box-shadow: 0 0 5px 5px rgba(246, 55, 236, 1);
+}
+
+.featuresSection .feature-Image-Section .feature-border #featureImage {
+    height: 160px;
+    margin: 0;
+    padding: 0;
+}
+
+#bendText {
+    width: 355px;
+    margin-left: -30px;
+}
+
+.featureText {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 30px;
 }
