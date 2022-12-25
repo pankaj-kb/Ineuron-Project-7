@@ -28,6 +28,15 @@ nav {
     height: 100px;
     justify-content: space-between;
     align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+}
+
+main {
+    padding-top: 100px;
 }
 
 #navLogo {
@@ -207,32 +216,21 @@ nav {
     padding-left: 30px;
 }
 
+
 .heroSection .imageSection .backCards {
-    position: relative;
+    position: absolute;
     right: 200px;
-    bottom: -100px;
-    padding: 0;
-    margin: 0 auto;
     width: 700px;
+    top: 200px;
 }
 
-/* .heroSection .imageSection {
-    margin: 0;
-    padding: 0;
-    width: 100px;
-    height: 670px;
-} */
-
 .heroSection .imageSection .frontCards {
-    position: relative;
+    position: absolute;
     right: 150px;
-    bottom: 400px;
+    top: 250px;
     padding-bottom: 10px;
     margin: 0 auto;
     width: 700px;
-}
-
-.heroSection .imageSection .frontCards {
     border-right: 2px solid#F637EC;
     border-radius: 15px;
     border-right-width: 3px;
