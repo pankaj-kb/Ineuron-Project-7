@@ -624,14 +624,22 @@ main {
 /* Footer Section */
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #151515;
-    height: 400px;
+    flex-direction: column;
+}
+
+.mainFooter {
+    background-color: #151515;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer .logo {
+.mainFooter .logo {
     height: 50px;
     position: relative;
     left: -440px;
@@ -656,4 +664,22 @@ main {
 
 .navBranding {
     cursor: pointer;
+}
+
+.extraSpacing {
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -40px;
+}
+
+.signature {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    /* display: none; */
+    /* visibility: hidden; */
 }
